@@ -1,0 +1,32 @@
+[
+    {
+        "response_type": "saludo",
+        "user_input": ["hola", "saludos", "buenas", "ey"],
+        "bot_response": "Hola que tal?",
+        "required_words": []
+    },
+    {
+        "response_type": "saludo",
+        "user_input": ["encantado", "encantao", "mucho", "gusto"],
+        "bot_response": "Encantao de conocerte man!",
+        "required_words": []
+    },
+    {
+        "response_type": "pregunta",
+        "user_input": ["que", "tal", "como", "estas"],
+        "bot_response": "Yo estoy muy bien, y tu que?",
+        "required_words": []
+    },
+    {
+        "response_type": "pregunta",
+        "user_input": ["que", "hora", "es", "tienes", "hora", "reloj"],
+        "bot_response": "No tengo reloj primo, pregunta la hora a otro",
+        "required_words": ["hora"]
+    },
+    {
+        "response_type": "pregunta",
+        "user_input": ["como", "aprendo", "aprendiendo", "a", "programar", "codigo", "programacion"],
+        "bot_response": "Vete a youtube y suscribete SapoKode que es el puto amo!",
+        "required_words": ["programar"]
+    }
+]
