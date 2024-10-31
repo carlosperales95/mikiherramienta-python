@@ -24,7 +24,6 @@ source /<nombre>/bin/activate
 Una vez activado, podemos instalar las dependencias del archivo `requirements.txt` en nuestro entorno usando `pip`:
 ```
 pip install -r ./requirements.txt
-<!-- chmod +x main.py -->
 ```
 
 Ya estamos listos para ejecutar el programa:
@@ -38,7 +37,7 @@ Para ejecutar nuestro programa en un entorno containerizado, debemos instalar `d
 
 Una vez instalado, debemos crear la imagen para poder montarla en contenedores. COmo ejemplo de nombre de imagen he elegido `mikiherramienta`, pero este nombre puede ser cambiado:
 ```
-docker build -t mikiherramienta
+docker build -t . mikiherramienta
 ```
 
 Una vez nuestra imagen ha sido creada con exito, podemos usarla para crear un nuevo contenedor:
