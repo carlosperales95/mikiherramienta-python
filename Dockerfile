@@ -4,4 +4,3 @@ COPY . .
 RUN pip install -r ./requirements.txt
 RUN chmod +x main.py
 ENTRYPOINT [ "python", "./main.py" ]
-# docker -i -t image

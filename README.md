@@ -1,4 +1,4 @@
-# La Mikiherramienta
+# La MikiHerramienta
 Este proyecto empezo como 3 diferentes scripts que hicimos en directo.
 
 Al final los hemos unido en una sola aplicacion, y lo hemos dockerizado para facilitar la instalacion y el setup de este proyectillo.
