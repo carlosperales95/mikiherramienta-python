@@ -3,8 +3,7 @@ import secrets as sec
 
 def generate_random_pass(length: int, symbols: bool, uppercase: bool):
     """
-    The function generates a random password of a specified length with 
-    optional symbols and uppercase letters.
+    The function generates a random password of a specified length with optional symbols and uppercase letters.
     
     :param length: The `length` parameter specifies the length of the random password that will be generated
     :type length: int

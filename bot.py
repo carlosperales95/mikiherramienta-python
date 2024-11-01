@@ -110,4 +110,3 @@ class ChatBot():
                 self.speak(self.GOODBYE_MESSAGE)
                 break
             self.speak(self.get_response(user_input))
-    
