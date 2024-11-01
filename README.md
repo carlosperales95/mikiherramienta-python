@@ -37,7 +37,7 @@ Para ejecutar nuestro programa en un entorno containerizado, debemos instalar `d
 
 Una vez instalado, debemos crear la imagen para poder montarla en contenedores. COmo ejemplo de nombre de imagen he elegido `mikiherramienta`, pero este nombre puede ser cambiado:
 ```
-docker build -t . mikiherramienta
+docker build -t mikiherramienta .
 ```
 
 Una vez nuestra imagen ha sido creada con exito, podemos usarla para crear un nuevo contenedor:
