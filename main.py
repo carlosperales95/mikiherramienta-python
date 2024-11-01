@@ -1,6 +1,6 @@
-import internet_test as it
-import bot
-import gen_pass as gp
+import modules.internet_test as it
+import modules.bot as bot
+import modules.gen_pass as gp
 import os
 
 # This Python class represents a tool called MikiHerramienta that offers options such as chatting with a bot, generating passwords, and testing internet speed.
@@ -15,7 +15,7 @@ class MikiHerramienta():
         self.PROMPT_NAN = "Oye eso no es un numero! Intentalo de nuevo"
         self.EXIT_MSG = "Saliendo del programa..."
         self.OPTIONS = ["Chat con Bot", "Generar contraseñas", "Prueba de internet"]
-        self.BOT_FILE = 'text_bot.json'
+        self.BOT_FILE = 'data/text_bot.json'
         self.DEFAULT_BOT_ANS = [
             "Yo ni idea de eso man, no estoy puesto",
             "No te entiendo un carajo, quieres vocalizar?",
